@@ -9,27 +9,50 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <style>
-        body{
-            background-image: url(./images/bg.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
 
     </style>
 
-    <title>Document</title>
+    <title>Bootstrap</title>
 </head>
 <body>
-
-    <center><h2>About</h2></center> 
- </p>
+    <header class="p-3 mb-2 bg-dark text-white">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light " >
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    </header>
     <div class="container">
+   
+
+             <center><h2>About</h2></center> 
+ </p>
+  
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-6">
                 <img src="images/Amanda (1).JPG" alt="alena of avalor" style="height: 470px;">
 
             </div>
-               <div class="col-7"><p>Hi there I'm Amanda Gudlwa</p>
+
+            
+               <div class="col-6"><p>Hi there I'm Amanda Gudlwa</p>
 
                 <h3>Web Developer</h3>
                 
@@ -74,11 +97,12 @@
 
                     <div class="row">
                         <div class="col-4">
-                            <button type="button" class="btn btn-primary w-100 ">Same </button>
+                            <button type="button" class="btn btn-primary w-100">Primary</button>
                         </div>
     
                         <div class="col-4">
-                            <button type="button" class="btn btn-primary w-100">Same sized </button>
+                            <button type="button" class="btn btn-primary w-100">Primary</button>
+        
                         </div>
                     </div>
 
